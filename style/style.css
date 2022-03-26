@@ -1,0 +1,592 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+
+    /* display: flex;
+   flex-direction: column;
+   align-items: center; */
+}
+
+header {
+    height: 80px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.T {
+    color: aliceblue;
+    position: absolute;
+    margin-left: 15px;
+
+
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo-content img {
+    margin-right: 8px;
+}
+
+.logo-content h1 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+
+}
+
+.navbar li {
+    font-size: 18px;
+    margin-left: 43px;
+
+}
+
+.navbar li a {
+    color: rgb(114, 112, 112);
+    transition: all.3s;
+}
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar li:first-child a {
+    font-weight: 700;
+    color: black;
+}
+
+.navbar li :hover {
+    color: black;
+}
+
+/* ________Main1 */
+
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.left-side-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    /* display: flex;
+      flex-flow: row wrap; */
+    font-size: 48px;
+    line-height: 56px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.ptext1 {
+    /* display: flex;
+flex-flow: row wrap; */
+    height: 96px;
+    font-size: 21px;
+    line-height: 32px;
+    color: gray;
+
+
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    line-height: 56px;
+
+}
+
+.--- {
+    /* display: flex;
+    justify-content: center; */
+    margin: 0 auto;
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #000000;
+    margin-bottom: 33px;
+
+}
+
+.button-1 {
+    width: 45%;
+    height: 56px;
+    margin-top: 45px;
+    border-radius: 55px;
+    cursor: pointer;
+    border: none;
+    background-color: #458FF6;
+    color: #fff;
+}
+
+.second-text-1 {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    width: 952px;
+    height: 60px;
+    margin: 0 auto;
+    color: gray;
+}
+
+.cardsdiv {
+    position: relative;
+    width: 83%;
+    margin-left: 111px;
+    margin-bottom: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.element {
+    position: absolute;
+    opacity: 0.3;
+    right: 0;
+    top: 37%;
+}
+
+.card {
+    width: 30%;
+    margin-right: 34px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-bottom: 37px;
+    transition: all 0.2s;
+    cursor: pointer;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.logo1 {
+    width: 91.98px;
+    height: 90px;
+}
+
+.card>img {
+    margin-top: 55px;
+    margin-left: 39px;
+}
+
+.card>h4 {
+    height: 56px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 24px;
+    margin-left: 39px;
+    margin-bottom: 1px;
+    color: blue;
+
+}
+
+.card>p {
+    height: 84px;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: gray;
+    margin-left: 39px;
+    margin-bottom: 47px;
+}
+
+.button-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.secondbutton {
+    width: 15%;
+    height: 60px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    background-color: #458FF6;
+    border-radius: 55px;
+    border: 1.4px;
+}
+
+.container-2 {
+    margin: 0 auto;
+    /* display: inline;
+ float: left; */
+}
+
+
+.container-2 div>p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: grey;
+}
+
+.left-side-2 {
+    float: left;
+    margin-left: 100px;
+}
+
+.right-side-2 {
+    float: right;
+    margin-right: 150px;
+}
+
+.button-3 {
+    width: 45%;
+    height: 56px;
+    margin-top: 45px;
+    border-radius: 55px;
+    cursor: pointer;
+    border: none;
+    background-color: #458FF6;
+    color: #fff;
+}
+
+
+
+.thirdmainsection{
+    display: flex;
+    width: 87%;
+    margin-right: 26px;
+    margin-left: 158px;
+}
+
+.thirdmainsection div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 71px;
+}
+
+.thirdmainsection div>h3{
+    margin-bottom: 30px;
+}
+.thirdmainsection div>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color:gray ;
+    margin-bottom: 40px;
+    
+}
+.line3{
+    width: 56px;
+    height: 2px;
+    border-radius: 10px;
+    background: #000000;
+    margin-bottom: 31px;
+
+}
+.thirdmainsection div>button{
+    width: 45%;
+    height: 60px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4089ED;
+    background-color: #ffffff;
+    border-radius: 55px;
+    border:1.4px  #4089ED solid;
+
+}
+.thirdmainsection div>button:hover{
+    background-color: aqua;
+
+}
+.forthmainsection{
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    margin-top: 222px;
+    margin-bottom: 270px;
+    margin-left: 100px ;
+}
+.downicon{
+    margin-left: 10px;
+}
+.forthmainsection h3{
+    margin-top: 64px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+.line4{
+    width: 56px;
+    height: 2px;
+    border-radius: 10px;
+    margin-bottom: 66px;
+    background-color: #ffffff;
+}
+.edward{
+    display: flex;
+    margin-left: 118px;
+    margin-right: 118px;
+    margin-bottom: 79px;
+}
+.edward>div{
+    display: flex;
+    align-items: center;
+    
+
+}
+.edward>div>img{
+    margin-right: 29px;
+}
+.edward>p{
+    width: 48%;
+    height: 120px;
+    margin-left: 110px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.name{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: #ffffff;
+}
+.fifthsection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.fifthsection>h3{
+    margin-bottom: 26px;
+
+}
+.line5{
+    width: 56px;
+    height: 2px;
+    border-radius: 10px;
+    background: #000000;
+    margin-bottom: 72px;
+
+}
+.secondcards{
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    height: 512px;
+
+}
+.checkoutcard{
+    width:31% ;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.checkoutcard:hover{
+    transform: scale(1.1);
+}
+.checkoutcard>img{
+    margin-bottom: 21px;
+}
+.checkoutcard>h5{
+    margin-left: 33px;
+    margin-right: 66px;
+    margin-bottom: 12px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color:#4089ED ;
+
+}
+.checkoutcard>p{
+    margin-left: 33px;
+    margin-right: 51px;
+    margin-bottom: 25px;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4089ED;
+
+}
+.checkoutcard>a{
+    margin-left: 33px;
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED
+}
+.fifthsection>button{
+    width: 15%;
+    height: 60px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 18px;
+    color: #4089ED;
+    background-color: #ffffff;
+    border-radius: 55px;
+    border:1.4px  #4089ED solid;
+    margin-top: 72px;
+    margin-bottom: 201px;
+}
+footer{
+    width: 100%;
+    height: 488px;
+    position: relative;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 83%;
+    height: 226px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1{
+    width: 25%;
+}
+.footer1>div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footerT{
+    position: absolute;
+    left: 4%;
+    right: 96%;
+    top: 35%;
+    bottom: 65%;
+}
+h6{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+.p1{
+    margin-bottom: 35px;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.p2{
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer2>div{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.footer2>a{
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+}
+.footer3>div{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.footer3>a{
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.footer4{
+    display: flex;
+    flex-direction: column;
+}
+.footer4>div{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.footer4>a{
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+footer a:hover{
+color: aqua;
+}
+.element2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
+
+
